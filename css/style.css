@@ -1,0 +1,298 @@
+/* Navbar */
+.navbar {
+  animation-duration: 0.1s;
+  animation-fill-mode: forwards;
+}
+
+.navbar-brand {
+  font-size: 7rem;
+  position: absolute;
+  font-weight: 300;
+  line-height: 1.2;
+  margin-top: 100px;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+.navbar-logo {
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+.navbar-nav {
+  font-size: 1.5rem;
+}
+
+/* Header */
+.header {
+  background: url(../img/header-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position-y: -200px;
+  min-height: 500px;
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 65% 100%, 0 90%);
+}
+
+#typing {
+  padding: 200px 0px 0px 160px;
+}
+
+/* Icons */
+#header-bottom {
+  margin-top: -100px;
+  padding: 150px 0px 30px;
+}
+
+#header-bottom h5 {
+  font-size: 40px;
+}
+
+#icons {
+  padding: 2rem;
+  width: 115px;
+  height: 115px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+/* About Us */
+#about {
+  margin-top: -70px;
+  padding-top: 50px;
+}
+
+/* Team */
+#team {
+  background: url(../img/team-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 400px;
+  clip-path: polygon(35% 0, 100% 10%, 100% 100%, 62% 98%, 0 100%, 0 15%);
+}
+
+#overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  min-height: 400px;
+}
+
+.carousel {
+  min-height: 450px;
+}
+
+#avatar {
+  border-radius: 50%;
+  margin-bottom: 10px;
+  width: 150px;
+}
+
+#avatar-name {
+  font-size: 50px;
+}
+
+/* Projects */
+#projects {
+  margin-top: -50px;
+  padding-top: 50px;
+}
+
+/* Footer */
+footer {
+  background: #000;
+}
+
+footer p {
+  margin-bottom: 0px;
+}
+
+/* Animation */
+@keyframes navbar-fill {
+  from {
+    background-color: transparent;
+    border-bottom: solid 0px #1f2734;
+  }
+  to {
+    background-color: #f0f0f0;
+    border-bottom: solid 3px #1f2734;
+  }
+}
+
+@keyframes navbar-transparent {
+  from {
+    background-color: #f0f0f0;
+    border-bottom: solid 3px #1f2734;
+  }
+  to {
+    background-color: transparent;
+    border-bottom: solid 0px #1f2734;
+  }
+}
+
+@keyframes brand-small {
+  from {
+    font-size: 7rem;
+    margin-top: 100px;
+  }
+  to {
+    font-size: 2rem;
+    margin-top: 0px;
+  }
+}
+
+@keyframes brand-big {
+  from {
+    font-size: 2rem;
+    margin-top: 0px;
+  }
+  to {
+    font-size: 7rem;
+    margin-top: 100px;
+  }
+}
+
+@keyframes logo-small {
+  from {
+    width: 107px;
+    height: 103px;
+  }
+  to {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@keyframes logo-big {
+  from {
+    width: 40px;
+    height: 40px;
+  }
+  to {
+    width: 107px;
+    height: 103px;
+  }
+}
+
+/* Responsive Breakpoints */
+@media (max-width: 1200px) {
+  /* Icons */
+  #header-bottom h5 {
+    font-size: 30px;
+  }
+  .media-body {
+    max-width: 160px;
+  }
+  /* About Us */
+  #about h1 {
+    font-size: 55px;
+  }
+}
+
+@media (max-width: 992px) {
+  /* Icons */
+  .media-body {
+    max-width: 900px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Navbar */
+  .navbar {
+    background-color: #f0f0f0;
+    border-bottom: solid 3px #1f2734;
+  }
+  .navbar-brand {
+    font-size: 3rem;
+    margin-top: 80px;
+  }
+  .navbar-logo {
+    width: 50px;
+    height: 50px;
+  }
+  /* Header */
+  .header {
+    background-position-y: -20px;
+    background-position: right;
+    min-height: 350px;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 65% 100%, 0 95%);
+  }
+  #typing {
+    font-size: 2rem;
+    padding: 140px 0px 0px 70px;
+  }
+  /* Icons */
+  #header-bottom h5 {
+    font-size: 30px;
+  }
+  #icons {
+    padding: 0.9rem;
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+  }
+  /* About Us */
+  #about h1 {
+    font-size: 2rem;
+  }
+  #about p {
+    font-size: 1.15rem;
+  }
+  /* Team */
+  #team p {
+    font-size: 15px;
+  }
+  .carousel {
+    min-height: 10px;
+  }
+  #avatar {
+    border-radius: 50%;
+    margin-bottom: 10px;
+    width: 100px;
+  }
+  #avatar-name {
+    font-size: 25px;
+  }
+  /* Animations */
+  @keyframes navbar-fill {}  @keyframes navbar-transparent {}  @keyframes brand-small {
+    from {
+      font-size: 3rem;
+      margin-top: 70px;
+    }
+    to {
+      font-size: 2rem;
+      margin-top: 0px;
+    }
+  }
+  @keyframes brand-big {
+    from {
+      font-size: 2rem;
+      margin-top: 0px;
+    }
+    to {
+      font-size: 3rem;
+      margin-top: 70px;
+    }
+  }
+  @keyframes logo-small {
+    from {
+      width: 50px;
+      height: 50px;
+    }
+    to {
+      width: 40px;
+      height: 40px;
+    }
+  }
+  @keyframes logo-big {
+    from {
+      width: 40px;
+      height: 40px;
+    }
+    to {
+      width: 50px;
+      height: 50px;
+    }
+  }
+}
+/*# sourceMappingURL=style.css.map */
