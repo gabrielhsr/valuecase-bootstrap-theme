@@ -1,4 +1,4 @@
-# Valuecase Bootstrap Theme
+# Valuecase Bootstrap Website
 This is my first single responsive page website using Bootstrap and SASS for a fictional company. [Click here to check the page.](https://gabrielhsr.github.io/valuecase-bootstrap-theme/)
 
 ![Website](https://i.imgur.com/GhD1kLB.png)
