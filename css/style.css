@@ -49,7 +49,7 @@
   font-size: 40px;
 }
 
-#icons {
+.icons {
   padding: 2rem;
   width: 115px;
   height: 115px;
@@ -82,13 +82,13 @@
   min-height: 450px;
 }
 
-#avatar {
+.avatar {
   border-radius: 50%;
   margin-bottom: 10px;
   width: 150px;
 }
 
-#avatar-name {
+.avatar-name {
   font-size: 50px;
 }
 
@@ -225,7 +225,7 @@ footer p {
   #header-bottom h5 {
     font-size: 30px;
   }
-  #icons {
+  .icons {
     padding: 0.9rem;
     width: 60px;
     height: 60px;
