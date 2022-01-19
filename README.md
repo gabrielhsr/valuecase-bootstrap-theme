@@ -11,7 +11,6 @@ I created this website as a means of learning web development.
 - Bootstrap
 - SASS
 - JavaScript
-- VSCode
 
 ## Copyright Info
 - [Company modern creative and clean business card te vector image created by ixdesignlab](https://www.vectorstock.com/royalty-free-vector/company-modern-creative-and-clean-business-card-te-vector-29105428)
